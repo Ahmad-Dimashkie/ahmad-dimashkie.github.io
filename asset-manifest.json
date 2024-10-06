@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b3de690a.css",
+    "main.js": "/static/js/main.ffd0b1e1.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/NoBordersImage.png": "/static/media/NoBordersImage.23ca7866110097c8a101.png",
+    "static/media/MSFEA-Platform.png": "/static/media/MSFEA-Platform.a738f296b70ef87ef233.png",
+    "static/media/Exchange-Tracker.png": "/static/media/Exchange-Tracker.08102524b2ec3c13a08d.png",
+    "static/media/Ahmad's_Resume.pdf": "/static/media/Ahmad's_Resume.8b2feaa9bb424be0f112.pdf",
+    "static/media/IDMS.png": "/static/media/IDMS.883fb28ea21ad5edfe4b.png",
+    "static/media/SentimentAnalysis.png": "/static/media/SentimentAnalysis.99594e38e26270935604.png",
+    "static/media/about.png": "/static/media/about.61cf2cd6db1b15982116.png",
+    "static/media/UniFind.png": "/static/media/UniFind.7bd9afdaecb0fc1370f8.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.1a758cc1355456de2863.jpg",
+    "static/media/home-about.jpg": "/static/media/home-about.25b89db6ba915d9414d5.jpg",
+    "static/media/home-main.svg": "/static/media/home-main.c1f522d416683d07d3ee5d36c6b59a02.svg",
+    "static/media/pre.svg": "/static/media/pre.77eadd7d8c23c49ad3f6.svg",
+    "index.html": "/index.html",
+    "main.b3de690a.css.map": "/static/css/main.b3de690a.css.map",
+    "main.ffd0b1e1.js.map": "/static/js/main.ffd0b1e1.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3de690a.css",
+    "static/js/main.ffd0b1e1.js"
+  ]
+}
