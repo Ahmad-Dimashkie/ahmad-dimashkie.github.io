@@ -7,6 +7,8 @@ import ExchangeTracker from "../../Assets/Projects/Exchange-Tracker.png";
 import MSFEA from "../../Assets/Projects/MSFEA-Platform.png";
 import IDMS from "../../Assets/Projects/IDMS.png";
 import UniFind from "../../Assets/Projects/UniFind.png";
+import StudentHub from "../../Assets/Projects/StudentHub.png";
+import SecureEcommerce from "../../Assets/Projects/SecureEcommerce.png";
 
 function Projects() {
   return (
@@ -20,6 +22,30 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={StudentHub}
+              isBlog={false}
+              title="AUB StudentHub"
+              description="StudentHub is a centralized student life platform for AUB that my team and I are developing in collaboration with a Software Engineer from Meta. 
+              We are aiming to streamline and enhance the student experience by integrating schedule builders, class reviews, and automated group chat creation. 
+              Using React and NextJS, We are building an intuitive, responsive UI, while employing FastAPI, PostgreSQL, and GraphQL to power key backend functionalities such as a course-specific Q&A system ect..."
+              ghLink="https://github.com/Georges7Haddad/centralized_platform"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={SecureEcommerce}
+              isBlog={false}
+              title="Secure Ecommerce Platform"
+              description="I collaborated with a team to develop an admin focused e-commerce platform for electronics and gadgets, 
+              using Flask for the backend and React for the frontend. Some of the platform's key features are inventory management, order processing, and role-based access control. 
+              They were built in a secure way to mitigate common attacks such as CSRF, XSS, session hijacking, token-based exploits and many more..."
+              ghLink="https://github.com/Ahmad-Dimashkie/Secure_E-Commerce_Website"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={UniFind}
@@ -58,21 +84,21 @@ sources, categorize documents based on their content using NLP, and the user can
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={SentimentAnalysis}
-              isBlog={false}
-              title="SentimentScope"
-              description="I worked on a sentiment analysis project using the IMDB movie reviews dataset, which contains 50,000 reviews. I implemented a classifier to determine whether the sentiment expressed in each review is positive or negative. To achieve this, I applied various natural language processing techniques to process and analyze the data, extracting meaningful features for accurate sentiment classification."
-              ghLink="https://github.com/Ahmad-Dimashkie/Sentiment-Analysis"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={MSFEA}
               isBlog={false}
               title="MSFEA Platform"
               description="This project is a web application built using Flask and Native HTML and CSS that interfaces with the MSFEA (Maroun Semaan Faculty of Engineering and Architecture) database. The application allows users to display various entities in the database, insert new data, and perform dynamic queries. The web app follows a CRUD (Create, Read, Update, Delete) model for database management."
               ghLink="https://github.com/Ahmad-Dimashkie/MSFEA-DB-Web-Application"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={SentimentAnalysis}
+              isBlog={false}
+              title="SentimentScope"
+              description="I worked on a sentiment analysis project using the IMDB movie reviews dataset, which contains 50,000 reviews. I implemented a classifier to determine whether the sentiment expressed in each review is positive or negative. To achieve this, I applied various natural language processing techniques to process and analyze the data, extracting meaningful features for accurate sentiment classification."
+              ghLink="https://github.com/Ahmad-Dimashkie/Sentiment-Analysis"
             />
           </Col>
         </Row>
