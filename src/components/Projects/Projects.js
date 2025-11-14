@@ -6,6 +6,7 @@ import SentimentAnalysis from "../../Assets/Projects/SentimentAnalysis.png";
 import ExchangeTracker from "../../Assets/Projects/Exchange-Tracker.png";
 import MSFEA from "../../Assets/Projects/MSFEA-Platform.png";
 import IDMS from "../../Assets/Projects/IDMS.png";
+import NeuroShield from "../../Assets/Projects/NeuroShield.png";
 import UniFind from "../../Assets/Projects/UniFind.png";
 import StudentHub from "../../Assets/Projects/StudentHub.png";
 import SecureEcommerce from "../../Assets/Projects/SecureEcommerce.png";
@@ -22,15 +23,28 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={StudentHub}
+              imgPath={NeuroShield}
               isBlog={false}
-              title="AUB StudentHub"
-              description="StudentHub is a centralized student life platform for AUB that my team and I are developing in collaboration with a Software Engineer from Meta. 
-              We are aiming to streamline and enhance the student experience by integrating schedule builders, class reviews, and automated group chat creation. 
-              Using React and NextJS, We are building an intuitive, responsive UI, while employing FastAPI, PostgreSQL, and GraphQL to power key backend functionalities such as a course-specific Q&A system ect..."
-              ghLink="https://github.com/Georges7Haddad/centralized_platform"
+              title="NeuroShield"
+              description="NeuroShield is an AI-security platform that evaluates machine-learning systems end-to-end by combining framework and code scanning, adversarial-attack testing, and compliance auditing in one workflow. 
+              The backend (Express + MongoDB) manages assessments and runs the tools used additionally we evaluate your system with the latest compliance regulations from NIST, NVD and ISO. The React dashboard presents structured risk findings, visualizations, and downloadable reports."
+              ghLink="https://github.com/Ahmad-Dimashkie/NEUROSHIELD"
+              demoLink="https://youtu.be/MeIgzmAhxAA"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={IDMS}
+              isBlog={false}
+              title="IDMS"
+              description="The Intelligent Document Management System is a web application designed to manage documents by automating the collection and analysis process. The system will extract relevant information from predefined web
+sources, categorize documents based on their content using NLP, and the user can search, manage, and retrieve documents. I used React for the frontend, Django for the backend, MongoDB for the databaset and Firebase for Authentication."
+              ghLink="https://github.com/Ahmad-Dimashkie/IDMS_CME"
+              demoLink="https://youtu.be/FtZWwt74F9s"
             />
           </Col>
 
@@ -48,6 +62,18 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={StudentHub}
+              isBlog={false}
+              title="AUB StudentHub"
+              description="StudentHub is a centralized student life platform for AUB that my team and I are developing in collaboration with a Software Engineer from Meta. 
+              We are aiming to streamline and enhance the student experience by integrating schedule builders, class reviews, and automated group chat creation. 
+              Using React and NextJS, We are building an intuitive, responsive UI, while employing FastAPI, PostgreSQL, and GraphQL to power key backend functionalities such as a course-specific Q&A system ect..."
+              ghLink="https://github.com/Georges7Haddad/centralized_platform"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={UniFind}
               isBlog={false}
               title="UniFind"
@@ -57,18 +83,6 @@ more. Which is why I built UniFind a web application that solves all that in one
 as for the backend I used Flask along with AWS Lambda Functions and an API Gateway, for the database I used DynamoDB."
               ghLink="https://github.com/Ahmad-Dimashkie/UniFind"
               demoLink="https://youtu.be/sd5FzTZWIDM"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={IDMS}
-              isBlog={false}
-              title="IDMS"
-              description="The Intelligent Document Management System is a web application designed to manage documents by automating the collection and analysis process. The system will extract relevant information from predefined web
-sources, categorize documents based on their content using NLP, and the user can search, manage, and retrieve documents. I used React for the frontend, Django for the backend, MongoDB for the databaset and Firebase for Authentication."
-              ghLink="https://github.com/HadiAlHassan/IDMS_CME"
-              demoLink="https://youtu.be/FtZWwt74F9s"
             />
           </Col>
 

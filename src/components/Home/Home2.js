@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/NoBordersImage.png";
+import myImg from "../../Assets/home-main.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -24,7 +24,7 @@ function Home2() {
                 <br />
                 <br />I am fluent in classics like
                 <i>
-                  <b className="blue"> Python, C++ and Javascript. </b>
+                  <b className="blue"> Python and Javascript. </b>
                 </i>
                 <br />
                 <br />
