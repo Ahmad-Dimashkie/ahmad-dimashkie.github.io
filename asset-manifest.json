@@ -1,31 +1,32 @@
 {
   "files": {
     "main.css": "/static/css/main.b3de690a.css",
-    "main.js": "/static/js/main.ef455475.js",
+    "main.js": "/static/js/main.36525141.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/NoBordersImage.png": "/static/media/NoBordersImage.23ca7866110097c8a101.png",
     "static/media/StudentHub.png": "/static/media/StudentHub.a4d39c3a006fca5286c4.png",
     "static/media/MSFEA-Platform.png": "/static/media/MSFEA-Platform.a738f296b70ef87ef233.png",
+    "static/media/Badge Photo.png": "/static/media/Badge Photo.f61b907217abe3aa90e0.png",
     "static/media/Exchange-Tracker.png": "/static/media/Exchange-Tracker.08102524b2ec3c13a08d.png",
-    "static/media/Ahmad's_Resume.pdf": "/static/media/Ahmad's_Resume.20bc9f17ad0854e6a6e4.pdf",
+    "static/media/NeuroShield.png": "/static/media/NeuroShield.5e05cf7bf18ca7c97ece.png",
     "static/media/IDMS.png": "/static/media/IDMS.883fb28ea21ad5edfe4b.png",
     "static/media/SentimentAnalysis.png": "/static/media/SentimentAnalysis.99594e38e26270935604.png",
     "static/media/about.png": "/static/media/about.61cf2cd6db1b15982116.png",
     "static/media/UniFind.png": "/static/media/UniFind.7bd9afdaecb0fc1370f8.png",
     "static/media/SecureEcommerce.png": "/static/media/SecureEcommerce.f5fc5c8cd2d2d791660b.png",
+    "static/media/Ahmad's_Resume.pdf": "/static/media/Ahmad's_Resume.1b3322896192a60b5306.pdf",
     "static/media/home-bg.jpg": "/static/media/home-bg.1a758cc1355456de2863.jpg",
     "static/media/home-about.jpg": "/static/media/home-about.25b89db6ba915d9414d5.jpg",
     "static/media/home-main.svg": "/static/media/home-main.c1f522d416683d07d3ee5d36c6b59a02.svg",
     "static/media/pre.svg": "/static/media/pre.77eadd7d8c23c49ad3f6.svg",
     "index.html": "/index.html",
     "main.b3de690a.css.map": "/static/css/main.b3de690a.css.map",
-    "main.ef455475.js.map": "/static/js/main.ef455475.js.map",
+    "main.36525141.js.map": "/static/js/main.36525141.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3de690a.css",
-    "static/js/main.ef455475.js"
+    "static/js/main.36525141.js"
   ]
 }
